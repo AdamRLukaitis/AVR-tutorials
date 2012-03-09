@@ -1,0 +1,29 @@
+This repo contains all of my AVR example code used in the tutorials throughout my site
+http://torrentula.to.funpic.de for more information
+
+This repo contains the following examples:
+
+74HC573 -> How to add more output pins to an AVR 
+HMC5883L -> How to read out the HMC5883L compass module via I2C
+Servo -> How to control a servo with an AVR  
+SRF05 -> How to read out the SRF05 ultra sonic range sensor 
+
+ * -------------------------------------------------------------------------
+ *
+ *	This program is free software: you can redistribute it and/or modify
+ *  it under the terms of the GNU General Public License as published by
+ *  the Free Software Foundation, either version 3 of the License, or
+ *  (at your option) any later version.
+ *
+ *  This program is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU General Public License for more details.
+ *
+ *  You should have received a copy of the GNU General Public License
+ *  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ *
+ * --------------------------------------------------------------------------
+ *
+ * Please provide a link to this website if you post this on a forum
+ * or if you redistribute/modify it
