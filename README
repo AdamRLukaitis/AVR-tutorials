@@ -7,7 +7,8 @@ This repo contains the following examples:
 HMC5883L -> How to read out the HMC5883L compass module via I2C
 Servo -> How to control a servo with an AVR  
 SRF05 -> How to read out the SRF05 ultra sonic range sensor 
-Software PWM 1 -> How to create a PWM signal in software 
+Software PWM 1 -> How to create a PWM signal in software (high frequencies)
+Software PWM 2 -> How to create a PWM signal in software (interrupt driven, low frequencies) 
 
  * -------------------------------------------------------------------------
  *
