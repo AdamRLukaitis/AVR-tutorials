@@ -1,11 +1,37 @@
 /*
-
-This sketch can create frequencies easily up to ~40kHz and any duty
-cycle you want. 
-Every single channel of the software PWM can be set to 
-a different duty cycle.
- 
-*/
+ *   Author: Torrentula
+ *   Website: http://torrentula.funpic.de
+ *
+ * -------------------------------------------------------------------------
+ *
+ *	This program is free software: you can redistribute it and/or modify
+ *  it under the terms of the GNU General Public License as published by
+ *  the Free Software Foundation, either version 3 of the License, or
+ *  (at your option) any later version.
+ *
+ *  This program is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU General Public License for more details.
+ *
+ *  You should have received a copy of the GNU General Public License
+ *  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ *
+ * --------------------------------------------------------------------------
+ *
+ * Please provide a link to this website if you post this on a forum
+ * or if you redistribute/modify it
+ * 
+ * 
+ * This example code shows how to create an 8 channel PWM signal in software.
+ * This version can generate a PWM signal up to ~40kHz at any duty cycle you like.
+ * The compare values are directly compared in the main loop which allows higher frequencies
+ * than an interrupt driven version. 
+ * 
+ * The compare functionality could be put into another function that gets called every time the 
+ * loop starts again to minimize the crowded code inside the main loop. 
+ * 
+ */
 
 #define F_CPU 16000000UL
 #define F_PWM 10000 // PWM frequency 
