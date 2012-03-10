@@ -1,6 +1,6 @@
 /*
  *   Author: Torrentula
- *   Website: torrentula.funpic.de
+ *   Website: http://torrentula.funpic.de
  *
  * -------------------------------------------------------------------------
  *
