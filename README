@@ -9,6 +9,7 @@ Servo -> How to control a servo with an AVR
 SRF05 -> How to read out the SRF05 ultra sonic range sensor 
 Software PWM 1 -> How to create a PWM signal in software (high frequencies)
 Software PWM 2 -> How to create a PWM signal in software (interrupt driven, low frequencies) 
+UART servo controller -> How to control up to 8 servos via UART
 
  * -------------------------------------------------------------------------
  *
