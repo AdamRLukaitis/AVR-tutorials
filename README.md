@@ -12,4 +12,4 @@
 * Software PWM 2 -> How to create a PWM signal in software (interrupt driven, low frequencies) 
 * UART servo controller -> How to control up to 8 servos via UART
 
-**Please provide a link to this website if you post this on a forum or if you redistribute/modify it**
+**Please provide a link to [this website](http://torrentula.to.funpic.de) if you post this on a forum or if you redistribute/modify it**
