@@ -39,7 +39,7 @@ volatile unsigned int microseconds = 0; // to save pulse length
 volatile uint8_t INT0_interrupt = 0; // to indicate whether an INT0 interrupt has already occured
 volatile uint8_t measurement_complete = 0; // is used to inicate that the measurement is complete
 
-void init_SRF05(){
+void init_SRF05(void){
 	// setupt Timer
 	TCCR0A = (1<<WGM01); // CTC Mode of Timer 0
 	// ((16000000 / 8 ) / 100000) -1 = 19
@@ -54,7 +54,7 @@ void init_SRF05(){
 	DDRD &= ~(1<<SRFin); // set INT0 as input
 }
 
-uint16_t SRF05_getDistance(){
+uint16_t SRF05_getDistance(void){
 
 	uint16_t dist = 0;
 

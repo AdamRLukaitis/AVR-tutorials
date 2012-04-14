@@ -81,7 +81,7 @@ void update(uint8_t latch){
 	EnablePORT &= ~(1<<latch);   // set pin from "latch" low to end update
 }
 
-void init_latch(){
+void init_latch(void){
 
 	EnableDDR = 0xFF;  // output enable lines & update lines for latches are connected to EnablePORT pins --> set as output
 	DataDDR = 0xFF;  // set DataPORT as output
